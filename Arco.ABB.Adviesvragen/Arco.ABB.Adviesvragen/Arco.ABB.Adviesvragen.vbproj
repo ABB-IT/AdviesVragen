@@ -55,22 +55,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Arco">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Arco.ABB.Common">
+      <HintPath>..\..\..\Algemeen_Toezicht\Algemeen_Toezicht-Pr-Productie\Arco.ABB.Common\bin\Debug\Arco.ABB.Common.dll</HintPath>
     </Reference>
     <Reference Include="Arco.ApplicationServer.Library">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.ApplicationServer.Library.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.ApplicationServer.Library.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Arco.Core">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.Core.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Arco.Doma.FileManager">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.Doma.FileManager.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.Doma.FileManager.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Arco.Doma.Library">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.Doma.Library.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.Doma.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Arco.Doma.WebControls">
+      <HintPath>..\..\..\Arco\bin\Arco.Doma.WebControls.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Arco.QueryParser">
-      <HintPath>..\..\..\..\..\..\..\_Includes\Doma 6.7.1\bin\Arco.QueryParser.dll</HintPath>
+      <HintPath>..\..\..\Arco\bin\Arco.QueryParser.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -146,12 +159,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Algemeen_Toezicht\Arco.ABB.Common\Arco.ABB.Common.vbproj">
-      <Project>{99f2abde-6e38-4107-944a-52f0fa07c7ad}</Project>
-      <Name>Arco.ABB.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
