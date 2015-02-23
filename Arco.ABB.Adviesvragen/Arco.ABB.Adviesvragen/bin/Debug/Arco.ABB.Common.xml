@@ -6,7 +6,12 @@ Arco.ABB.Common
 </name>
 </assembly>
 <members>
-<member name="P:Arco.ABB.Common.My.Resources.Resources.ResourceManager">
+<member name="T:Arco.ABB.Common.CustomArcoInfoDirect">
+	<summary>
+ class for uncached access to arcoinfo
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Arco.ABB.Common.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -19,11 +24,6 @@ Arco.ABB.Common
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="T:Arco.ABB.Common.CustomArcoInfoDirect">
-	<summary>
- class for uncached access to arcoinfo
- </summary>
-	<remarks></remarks>
 </member>
 </members>
 </doc>
